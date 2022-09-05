@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>简易查询</title>
+    <script>
+        let data
+        fetch('./result.json')
+            .then((response) => response.json())
+            .then((json) => {
+                data = json
+                console.log(data)
+            })
+    </script>
+</head>
+<body style="text-align: center;">
+    <h1>安全微伴答案查询</h1>
+    <input type="text" name="title" onchange="change()" id ="in">
+    <br><br><br>    
+    <textarea id="out">答案</textarea>  
+    <script>
+        function change(){
+            let input = document.getElementById("in").value
+            text = data[input]
+            document.getElementById("out").innerHTML = String(text).replace(/--/g,"\n")
+        }
+    </script>
+</body>
+</html>
