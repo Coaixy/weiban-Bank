@@ -17,14 +17,19 @@
 </head>
 <body style="text-align: center;">
     <h1>安全微伴答案查询</h1>
-    <input type="text" name="title" onchange="change()" id ="in">
+    <input type="text" name="title" onchange="change()" id ="in" value="校园贷存在哪些风险？（）">
     <br><br><br>    
-    <textarea id="out">答案</textarea>  
+    <div contenteditable="true" id="out">
+    低利率、高费用<br>
+    风险控制不完善<br>
+    用户信息可能被盗取、泄露和篡改<br>
+    过于宽松的信贷政策，会纵容一部分自制力差的大学生过度消费，助长攀比风气
+    </div>  
     <script>
         function change(){
             let input = document.getElementById("in").value
             text = data[input]
-            document.getElementById("out").innerHTML = String(text).replace(/--/g,"\n")
+            document.getElementById("out").innerHTML = String(text).replace(/--/g,"<br>")
         }
     </script>
 </body>
