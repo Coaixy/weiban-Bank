@@ -1,7 +1,6 @@
 import json
-from operator import indexOf
-
 textData = 0
+
 with open('C:\\Users\\Coaixy\\Desktop\\data.json',"r",encoding="utf-8") as file:
     textData = file.read()
 jsonData = json.loads(textData)['data']['questions']
