@@ -23,6 +23,7 @@
     "@svelteuidev/core": "^0.14.0",
     "autoprefixer": "^10.4.14",
     "postcss": "^8.4.27",
+    "radix-icons-svelte": "^1.2.1",
     "tailwindcss": "^3.3.3"
   }
 }
