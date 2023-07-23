@@ -13,6 +13,9 @@ dependencies:
   postcss:
     specifier: ^8.4.27
     version: registry.npmmirror.com/postcss@8.4.27
+  radix-icons-svelte:
+    specifier: ^1.2.1
+    version: registry.npmmirror.com/radix-icons-svelte@1.2.1
   tailwindcss:
     specifier: ^3.3.3
     version: registry.npmmirror.com/tailwindcss@3.3.3
@@ -1247,6 +1250,12 @@ packages:
     resolution: {integrity: sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/queue-microtask/-/queue-microtask-1.2.3.tgz}
     name: queue-microtask
     version: 1.2.3
+
+  registry.npmmirror.com/radix-icons-svelte@1.2.1:
+    resolution: {integrity: sha512-svmiMd0ocpdTm9cvAz0klcZpnh639lVctj6psQiawd4pYalVzOG4cX+JizAgRckyTAsRVdzObP7D2EBrSfdghA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/radix-icons-svelte/-/radix-icons-svelte-1.2.1.tgz}
+    name: radix-icons-svelte
+    version: 1.2.1
+    dev: false
 
   registry.npmmirror.com/read-cache@1.0.0:
     resolution: {integrity: sha512-Owdv/Ft7IjOgm/i0xvNDZ1LrRANRfew4b2prF3OWMQLxLfu3bS8FVhCsrSCMK4lR56Y9ya+AThoTpDCTxCmpRA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/read-cache/-/read-cache-1.0.0.tgz}
